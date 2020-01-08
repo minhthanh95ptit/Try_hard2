@@ -5,6 +5,6 @@ Lộ trình cơ bản:
 - Front end: HTML,CSS,JS
 
 Github :
-git add .
-git commit -m "..."
-git push origin master
+-git add .
+-git commit -m "..."
+-git push origin master
