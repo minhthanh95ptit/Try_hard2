@@ -4,7 +4,10 @@ Lộ trình cơ bản:
 - Back end: Python basic, python advance,framework django và flask
 - Front end: HTML,CSS,JS
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e7675224f6d69b97ce84d6777027ccd5489d2924
 Github :
 -git add .
 -git commit -m "..."
