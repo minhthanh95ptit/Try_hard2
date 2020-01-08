@@ -3,3 +3,9 @@ Trên đây toàn bộ là quá trình cày cuốc,học tập của mình trong
 Lộ trình cơ bản:
 - Back end: Python basic, python advance,framework django và flask
 - Front end: HTML,CSS,JS
+
+
+Github :
+-git add .
+-git commit -m "..."
+-git push origin master
