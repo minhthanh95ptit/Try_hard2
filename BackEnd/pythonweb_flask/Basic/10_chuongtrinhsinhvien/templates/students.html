@@ -1,0 +1,21 @@
+
+<p>Bảng thông tin sinh viên 2019 : </p>
+{% if students %}
+<table border='1'>
+    <tr>
+         <th>Id</th>
+         <th>Name</th>
+         <th>Address</th>
+    </tr>
+    {% for student in students %}
+        <tr>
+             <td> {{ student.id }} </td>
+             <td> {{ student.name }} </td>
+             <td> {{ student.address }} </td>
+        </tr>
+    {% endfor %}
+</table>
+{% else %}
+No students
+{% endif %}
+
