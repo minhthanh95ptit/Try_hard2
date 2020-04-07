@@ -1,4 +1,17 @@
-Dự án FRONT END đã làm:
-Dự án BACK END đã làm:
-+ CanChi : Từ năm dương suy ra năm âm lịch 1995 -> Ất Hợi
-+ Pokemon bằng FLask rendering HTML,CSS
+FRONT END:
+
+	+ CodersX :
+		- Khoa du bi CodersX 2020
+	+ FreeCodeCamp:
+		-Responsive Web Design Certification (300 hours)
+		-JavaScript Algorithms and Data Structures Certification (300 hours)
+		-Front End Libraries Certification (300 hours)
+
+BACK END:
+
+	+ CodersX:
+		- Khoa chinh thuc CodersX 2020
+	+ FreeCodeCamp
+		- APIs and Microservices Certification (300 hours)
+
+
