@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+var menu = {
+		  Home: true,
+		  About: true,
+		  Services: {
+		    'System Development': true,
+		    'Head Hunting': true,
+		    Training: {
+		      Programing: true,
+		      English: true,
+		      'Personal Development': true
+		    }
+		  }
+		}
+	var listArr = [];
+  var dem = 0;
+
+	function display(menu) {
+	  // viết gì ở đây
+	 
+	  for (var key in menu){
+	    if(listArr.includes(key)){
+	      continue;
+	    }
+	    listArr.push(key);
+
+	   
+	    if(menu[key] != true){
+	        display(menu[key]);
+	    }
+	  }
+
+	  for(var i = 0 ; i < listArr.length; i++){
+	  	console.log(cout(dem) + '-' + listArr[i]);
+	  }
+    listArr = [];
+    dem++;
+	}
+
+  function cout(dem){
+    var str = "";
+    for(var i = 0 ; i < dem ;i++){
+      str += ' ';
+    }
+    return str;
+  }
+
+	display(menu);
+	</script>
+</body>
+</html>
