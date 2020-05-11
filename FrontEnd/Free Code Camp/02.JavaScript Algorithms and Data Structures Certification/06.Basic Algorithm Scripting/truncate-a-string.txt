@@ -1,0 +1,11 @@
+function truncateString(str, num) {
+  debugger;
+  if(num >= str.length){
+     return str;
+  }
+  return str.slice(0,num) + "...";
+}
+
+//truncateString("A-tisket a-tasket A green and yellow basket", 8);
+
+truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length + 2);

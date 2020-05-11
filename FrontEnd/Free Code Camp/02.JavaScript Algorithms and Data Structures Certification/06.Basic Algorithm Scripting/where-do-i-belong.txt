@@ -1,0 +1,19 @@
+function getIndexToIns(arr, num) {
+  debugger;
+  if(arr.indexOf(num) === -1){
+    arr.push(num);
+    arr.sort(function sort(a,b){
+      return a - b;
+    });
+    return arr.indexOf(num) ;
+  }
+  else{
+    arr.sort(function sort(a,b){
+      return a - b;
+    });
+    return arr.indexOf(num);
+  }
+}
+
+//getIndexToIns([40, 60], 50);
+getIndexToIns([3, 10, 5], 3);

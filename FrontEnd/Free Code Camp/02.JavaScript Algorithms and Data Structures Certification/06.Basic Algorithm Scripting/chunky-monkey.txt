@@ -1,0 +1,31 @@
+function chunkArrayInGroups(arr, size) {
+    var result = [];
+    var count = 0;
+    var maxCount;
+   const lenArr = arr.length;
+   if(lenArr % size > 0){
+      maxCount = Math.floor(lenArr / size) + 1;
+   }
+   else{
+      maxCount = Math.floor(lenArr / size) ;
+   }
+    debugger;
+   while(count < maxCount){
+    var start = count * size;
+    var end = count * size + size;
+
+    if(lenArr / size > 0){
+     let subArr = arr.slice(start,end);
+     count++;
+     result.push(subArr);
+    }
+    else{
+     result.push(arr.slice(start + 1));
+     count++;
+    }
+   }
+  return result;
+}
+
+
+console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 4));

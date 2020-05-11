@@ -1,0 +1,7 @@
+const arr = [2, 4, 5, 1, 7, 5, 2, 1];
+// Only change code below this line
+arr.splice(1,4);
+// 1 : vi tri bat dau
+// 4 : so phan tu lay ra 
+// Only change code above this line
+console.log(arr);

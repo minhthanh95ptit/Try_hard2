@@ -1,0 +1,12 @@
+function confirmEnding(str, target) {
+  let arr = str.split("");
+  let lenTarget = target.length;
+  let lenArr = arr.length;
+
+  if(arr.slice(lenArr - lenTarget ,lenArr).join("") === target){
+    return true;
+  }
+  return false
+}
+
+confirmEnding("Bastian", "n");

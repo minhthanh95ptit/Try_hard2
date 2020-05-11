@@ -1,0 +1,25 @@
+const usersObj = 
+{ 
+  Alan: { online: false }, 
+  Jeff: { online: true }, 
+  Sarah: { online: false }
+} ;
+
+function countOnline(usersObj) {
+  // Only change code below this line
+   
+    let count = 0;
+    for(let user in usersObj){
+       debugger;
+    //  console.log(usersObj.user.online);
+    //  console.log(usersObj.user.online);
+      if(usersObj[user].online === true){
+        count++;
+      }
+   //   console.log(count);
+    }
+    return count;
+  // Only change code above this line
+}
+
+console.log(countOnline(usersObj));

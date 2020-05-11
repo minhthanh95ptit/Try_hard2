@@ -1,0 +1,7 @@
+let yourArray = [
+  1,
+  true,
+  {a : 123},
+  "KAKAKA",
+  "Dracule Mihalk"
+]; // Change this line
